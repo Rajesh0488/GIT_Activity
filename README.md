@@ -1,63 +1,62 @@
-1. Create a New Project Folder
 
-<img width="1069" height="161" alt="image" src="https://github.com/user-attachments/assets/95641fee-b7bf-4292-b2d8-e5b69cbe0006" />
+1. Modify `app.py`
 
-2. Initialize a Git Repository
+print('Feature-1')
+print('Feature-2')
 
-git init
+<img width="940" height="164" alt="image" src="https://github.com/user-attachments/assets/9a85a1f6-bd36-4a2f-a6ba-e391dcb8a851" />
 
-<img width="940" height="328" alt="image" src="https://github.com/user-attachments/assets/b030222b-89ad-4558-b8b6-eac810dcbf4a" />
-
-3. Create `app.py` with Python Code
-
-<img width="709" height="106" alt="image" src="https://github.com/user-attachments/assets/2a1a50a5-c46f-43b3-a0c1-a67bcf5a9b15" />
-
-
-Open it and add some code, for example:
-
-print('API-1')
-print('API-2')
-
-4. Check Git Status
+2. Check Changes Before Staging
 
 git status
 
-<img width="577" height="166" alt="image" src="https://github.com/user-attachments/assets/7f02a15a-8b03-4b0c-b4a6-adb55049b818" />
+<img width="940" height="271" alt="image" src="https://github.com/user-attachments/assets/35d1921b-8220-4b07-9a16-bee414f2f1c7" />
 
-5. Stage the File
+ 3. View Differences (Unstaged Changes)
+
+git diff
+
+<img width="844" height="325" alt="image" src="https://github.com/user-attachments/assets/e8cbf27b-8193-42bb-a5ea-26b3bfb46ec7" />
+
+4. Stage Specific Changes (Partial Staging)
+
+git add -p app.py
+
+<img width="940" height="260" alt="image" src="https://github.com/user-attachments/assets/cd666229-31c5-4499-a767-6f8df84e96de" />
+
+5. Commit Changes with Clear Message
+
+git commit -m 'Feature added'
+
+<img width="940" height="176" alt="image" src="https://github.com/user-attachments/assets/f0d1050c-d4f0-4fc2-9bd0-06019b17e603" />
+
+6. Make Another Change in `app.py`
+
+print('Dev1')
+print('Dev2')
+
+<img width="940" height="206" alt="image" src="https://github.com/user-attachments/assets/6e19a978-664b-4a9e-a75f-0712262b91f0" />
+
+7. Stage All Changes
 
 git add .
 
-<img width="940" height="225" alt="image" src="https://github.com/user-attachments/assets/00c4cae3-b479-45bb-b0fb-25050cb4bd35" />
+<img width="683" height="134" alt="image" src="https://github.com/user-attachments/assets/f218bafd-7738-4dec-90f9-127a11d2647b" />
 
-6. Commit with a Meaningful Message
+8. Commit Again
 
-git commit -m 'API 1 & 2 Added'
+git commit -m 'DEV added' 
 
-<img width="940" height="227" alt="image" src="https://github.com/user-attachments/assets/1bf49fdb-6bf7-470e-b0db-9b193cd73dba" />
+<img width="863" height="325" alt="image" src="https://github.com/user-attachments/assets/d2e72ff6-e323-43f0-b0e7-518eba492e19" />
 
+9. View Full Commit History
 
-7. Create a Remote Repository
+git log
 
-<img width="321" height="41" alt="image" src="https://github.com/user-attachments/assets/c8e56264-98ea-4255-ba3f-c14183dc82d8" />
+<img width="555" height="106" alt="image" src="https://github.com/user-attachments/assets/8dacba30-fe94-4ab2-9c3b-5b05b81bdd87" />
 
-8. Add Remote (origin)
+10. View Compact (One-Line) History
 
-Copy the repository URL: https://github.com/Rajesh0488/GIT_Activity.git
+git log --oneline
 
-git remote add origin https://github.com/Rajesh0488/GIT_Activity.git
-
-9. Verify Remote Configuration
-
-git remote -v
-
-<img width="940" height="227" alt="image" src="https://github.com/user-attachments/assets/d825d99e-a9ee-45e1-b1eb-261e4db910a8" />
-
-10. Push Code to Remote Repository
-
-<img width="940" height="262" alt="image" src="https://github.com/user-attachments/assets/a727c30c-6b8e-4456-8574-69cc0ae0ab15" />
-
-11. Verify the GitHub 
-
-<img width="940" height="389" alt="image" src="https://github.com/user-attachments/assets/33f847ad-c258-47d9-a759-f7f3c1d00533" />
-
+![Uploading image.png…]()
