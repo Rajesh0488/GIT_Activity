@@ -59,4 +59,5 @@ git log
 
 git log --oneline
 
-![Uploading image.png…]()
+<img width="355" height="68" alt="image" src="https://github.com/user-attachments/assets/a3ede414-dc06-4e61-bc90-82811f71dd55" />
+
