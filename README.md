@@ -22,13 +22,13 @@ git diff
 
 git add -p app.py
 
-<img width="940" height="260" alt="image" src="https://github.com/user-attachments/assets/cd666229-31c5-4499-a767-6f8df84e96de" />
+<img width="940" height="319" alt="image" src="https://github.com/user-attachments/assets/7478de69-093d-447f-a1bf-78dcb4adf8a4" />
 
 5. Commit Changes with Clear Message
 
 git commit -m 'Feature added'
 
-<img width="940" height="176" alt="image" src="https://github.com/user-attachments/assets/f0d1050c-d4f0-4fc2-9bd0-06019b17e603" />
+<img width="940" height="260" alt="image" src="https://github.com/user-attachments/assets/e0d5d3fb-ffbf-4730-a9f1-160f421b561b" />
 
 6. Make Another Change in `app.py`
 
