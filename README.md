@@ -53,7 +53,7 @@ git commit -m 'DEV added'
 
 git log
 
-<img width="555" height="106" alt="image" src="https://github.com/user-attachments/assets/8dacba30-fe94-4ab2-9c3b-5b05b81bdd87" />
+<img width="863" height="325" alt="image" src="https://github.com/user-attachments/assets/dbc6e134-165b-4b3c-a5c6-75c0b7d0feca" />
 
 10. View Compact (One-Line) History
 
