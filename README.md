@@ -35,19 +35,19 @@ git commit -m 'Feature added'
 print('Dev1')
 print('Dev2')
 
-<img width="940" height="206" alt="image" src="https://github.com/user-attachments/assets/6e19a978-664b-4a9e-a75f-0712262b91f0" />
+<img width="940" height="176" alt="image" src="https://github.com/user-attachments/assets/d7cda62a-8f2b-46f4-a952-8c9b9181e7e3" />
 
 7. Stage All Changes
 
 git add .
 
-<img width="683" height="134" alt="image" src="https://github.com/user-attachments/assets/f218bafd-7738-4dec-90f9-127a11d2647b" />
+<img width="940" height="206" alt="image" src="https://github.com/user-attachments/assets/4308263c-f71d-4d65-8f94-d265a9df0128" />
 
 8. Commit Again
 
 git commit -m 'DEV added' 
 
-<img width="863" height="325" alt="image" src="https://github.com/user-attachments/assets/d2e72ff6-e323-43f0-b0e7-518eba492e19" />
+<img width="683" height="134" alt="image" src="https://github.com/user-attachments/assets/fe3f7817-eec9-476b-9de3-3708813e4627" />
 
 9. View Full Commit History
 
