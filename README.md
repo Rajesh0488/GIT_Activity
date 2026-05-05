@@ -1,63 +1,64 @@
+1. Create a New Branch
 
-1. Modify `app.py`
 
-print('Feature-1')
-print('Feature-2')
+git branch feature-update
 
-<img width="940" height="164" alt="image" src="https://github.com/user-attachments/assets/9a85a1f6-bd36-4a2f-a6ba-e391dcb8a851" />
+<img width="838" height="247" alt="image" src="https://github.com/user-attachments/assets/637a8554-bd89-4b07-b0c6-0ad7ee297bfa" />
 
-2. Check Changes Before Staging
+2. Switch to the New Branch
 
-git status
+git checkout feature-update
 
-<img width="940" height="271" alt="image" src="https://github.com/user-attachments/assets/35d1921b-8220-4b07-9a16-bee414f2f1c7" />
+<img width="940" height="155" alt="image" src="https://github.com/user-attachments/assets/7d4467d0-c193-47a5-a641-8053a137262c" />
 
- 3. View Differences (Unstaged Changes)
+3. Modify `app.py` with New Feature
 
-git diff
+<img width="473" height="166" alt="image" src="https://github.com/user-attachments/assets/d8de6d42-60cf-4dfd-aaca-b84bcb648106" />
 
-<img width="844" height="325" alt="image" src="https://github.com/user-attachments/assets/e8cbf27b-8193-42bb-a5ea-26b3bfb46ec7" />
-
-4. Stage Specific Changes (Partial Staging)
-
-git add -p app.py
-
-<img width="940" height="319" alt="image" src="https://github.com/user-attachments/assets/7478de69-093d-447f-a1bf-78dcb4adf8a4" />
-
-5. Commit Changes with Clear Message
-
-git commit -m 'Feature added'
-
-<img width="940" height="260" alt="image" src="https://github.com/user-attachments/assets/e0d5d3fb-ffbf-4730-a9f1-160f421b561b" />
-
-6. Make Another Change in `app.py`
-
-print('Dev1')
-print('Dev2')
-
-<img width="940" height="176" alt="image" src="https://github.com/user-attachments/assets/d7cda62a-8f2b-46f4-a952-8c9b9181e7e3" />
-
-7. Stage All Changes
+4. Stage and Commit Changes
 
 git add .
+git commit -m "Devops added"
 
-<img width="940" height="206" alt="image" src="https://github.com/user-attachments/assets/4308263c-f71d-4d65-8f94-d265a9df0128" />
+<img width="872" height="300" alt="image" src="https://github.com/user-attachments/assets/05e5cb3b-b567-4036-912e-fcf11dd5edca" />
 
-8. Commit Again
+ 5. Switch Back to Main Branch
 
-git commit -m 'DEV added' 
+git checkout main
 
-<img width="683" height="134" alt="image" src="https://github.com/user-attachments/assets/fe3f7817-eec9-476b-9de3-3708813e4627" />
+<img width="940" height="678" alt="image" src="https://github.com/user-attachments/assets/6d39505f-b0e9-4592-82f4-4eeda578306e" />
 
-9. View Full Commit History
+6. Merge Feature Branch into Main
 
-git log
+git merge feature-update
 
-<img width="863" height="325" alt="image" src="https://github.com/user-attachments/assets/dbc6e134-165b-4b3c-a5c6-75c0b7d0feca" />
+<img width="940" height="175" alt="image" src="https://github.com/user-attachments/assets/8b004391-deba-4bbf-8081-0e7ab507403d" />
 
-10. View Compact (One-Line) History
+7. Verify Changes Are Merged
 
 git log --oneline
 
-<img width="355" height="68" alt="image" src="https://github.com/user-attachments/assets/a3ede414-dc06-4e61-bc90-82811f71dd55" />
+<img width="774" height="59" alt="image" src="https://github.com/user-attachments/assets/bba823c8-3308-4bc7-b24b-d7f6c7de407d" />
+
+8. Delete the Branch Safely
+
+git branch -d feature-update
+
+<img width="731" height="231" alt="image" src="https://github.com/user-attachments/assets/a9e0f70d-8027-42bc-afe3-97c0a1c200cc" />
+
+9. Force Delete a Branch (Using Dummy Branch)
+
+Create dummy branch:
+
+git checkout -b temp-branch
+
+<img width="702" height="195" alt="image" src="https://github.com/user-attachments/assets/410a59e2-9549-4419-8be7-9b3ad7579c97" />
+
+Switch back to main and Force Delete:
+
+git checkout master
+git branch -D tempbranch
+
+<img width="702" height="236" alt="image" src="https://github.com/user-attachments/assets/afcbff45-6032-452f-874d-f92dfd6dad28" />
+
 
